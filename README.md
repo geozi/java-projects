@@ -1,2 +1,2 @@
 # java-projects
-Demonstrating code skills in Java.
+Demonstrating coding skills in Java.
