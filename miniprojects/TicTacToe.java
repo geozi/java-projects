@@ -3,7 +3,7 @@ package miniprojects;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class ticTacToe {
+public class TicTacToe {
 
     final static int THREE_X_SUM = 264;
     final static int THREE_O_SUM= 237;
