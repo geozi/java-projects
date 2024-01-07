@@ -12,6 +12,7 @@ public class Account {
     private String accountNumber;
     private ArrayList<Customer> accountHolders;
     private double balance;
+    private AccountType accountType;
 
     // Getters and setters
 
@@ -57,6 +58,22 @@ public class Account {
      */
     protected void setBalance(double balance) {
         this.balance = balance;
+    }
+
+    /**
+     * Returns the account type of the Account instance.
+     * @return The account type as AccountType.
+     */
+    public AccountType getAccountType() {
+        return accountType;
+    }
+
+    /**
+     * Updates the account type.
+     * @param accountType The new account type as AccountType.
+     */
+    protected void setAccountType(AccountType accountType) {
+        this.accountType = accountType;
     }
 
     /**

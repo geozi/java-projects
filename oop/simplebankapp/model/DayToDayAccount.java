@@ -21,6 +21,7 @@ public class DayToDayAccount extends Account {
         this.setAccountNumber(accountNumber);
         this.setAccountHolders(accountHolders);
         this.setBalance(0);
+        this.setAccountType(AccountType.DAY_TO_DAY);
     }
 
     /**

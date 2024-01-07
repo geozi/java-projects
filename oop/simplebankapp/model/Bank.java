@@ -129,14 +129,7 @@ public class Bank {
     boolean isOverdraftAllowed(String accountNumber) {
         boolean overdraftAllowed;
         Account account = accounts.get(accountNumber);
-
-        if(account instanceof SavingsAccount) {
-            overdraftAllowed = overdraftPerAccountType.get(AccountType.SAVINGS);
-        } else if (account instanceof  PayrollAccount) {
-            overdraftAllowed = overdraftPerAccountType.get(AccountType.PAYROLL);
-        } else {
-            overdraftAllowed = overdraftPerAccountType.get(AccountType.DAY_TO_DAY);
-        }
+        overdraftAllowed = overdraftPerAccountType.get(account.getAccountType());
         return overdraftAllowed;
     }
 
