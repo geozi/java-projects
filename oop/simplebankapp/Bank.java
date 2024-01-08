@@ -1,4 +1,4 @@
-package oop.simplebankapp.model;
+package oop.simplebankapp;
 
 import java.util.ArrayList;
 import java.util.HashMap;

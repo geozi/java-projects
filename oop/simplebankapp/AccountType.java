@@ -1,4 +1,4 @@
-package oop.simplebankapp.model;
+package oop.simplebankapp;
 
 /**
  * The {@link AccountType} class is an enum class

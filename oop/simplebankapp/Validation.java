@@ -1,4 +1,4 @@
-package oop.simplebankapp.model;
+package oop.simplebankapp;
 
 /**
  * The {@link Validation} class contains static methods that
